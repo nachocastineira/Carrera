@@ -6,6 +6,8 @@ public class Materia implements Comparable<Materia>{
 		private Examen examen1;
 		private Examen examen2;
 		
+		
+		//constructor
 		public Materia (String nombreMateria)
 		{
 			this.examen1 = new Examen(0);

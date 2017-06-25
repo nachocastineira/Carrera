@@ -4,8 +4,8 @@ import java.util.TreeSet;
 
 public class Carrera {
 	
+	private String nombreCarrera;
 	
-
 	
 	private TreeSet <Materia> materias = new TreeSet <Materia>();
 	
@@ -22,6 +22,8 @@ public class Carrera {
 		return materias;
 	}
 	
+
+	
 	//admitir materia en la carrera
 	public void admitirMateria (Materia materia)
 	{
@@ -29,7 +31,7 @@ public class Carrera {
 	}
 
 	
-	
+	//getters y setters
 	public TreeSet<Materia> getMaterias() {
 		return materias;
 	}
@@ -37,6 +39,18 @@ public class Carrera {
 	public void setMaterias(TreeSet<Materia> materias) {
 		this.materias = materias;
 	}
+	
+	
+
+	public String getNombreCarrera() {
+		return nombreCarrera;
+	}
+
+	public void setNombreCarrera(String nombreCarrera) {
+		this.nombreCarrera = nombreCarrera;
+	}
+	
+	
 	
 	
 	
